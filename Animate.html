@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 15px;
+            margin-right: 50px;
+            padding: 5px;
+        }
+
+        body {
+            background-color: burlywood;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slidebutton{
+            0%{transform:translateX(-100%);}
+            100%{transform:translateX();}
+        }
+        .fade-in-element {
+            animation: fadeIn 5s ease-out;
+            background-color: darkgreen;
+            border: 1px solid;
+            border-radius: 12px;
+
+        }
+        .fade-in-element1 {
+            animation: fadeIn 5s ease-out;
+            background-color: blueviolet;
+            border: 1px solid;
+            border-radius: 12px;
+        }
+
+        .buttonslide {
+            animation: slidebutton 2s ease-out;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>@keyframes demo</h1>
+    <div class="fade-in-element">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quasi animi corporis hic. Cumque architecto
+            nisi assumenda, ut eligendi tempore ducimus, porro aliquid a beatae modi molestias et, dicta odit!</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quasi animi corporis hic. Cumque architecto
+            nisi assumenda, ut eligendi tempore ducimus, porro aliquid a beatae modi molestias et, dicta odit!</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quasi animi corporis hic. Cumque architecto
+            nisi assumenda, ut eligendi tempore ducimus, porro aliquid a beatae modi molestias et, dicta odit!</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quasi animi corporis hic. Cumque architecto
+            nisi assumenda, ut eligendi tempore ducimus, porro aliquid a beatae modi molestias et, dicta odit!</p>
+
+    </div>
+
+    <div class="fade-in-element1">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quasi animi corporis hic. Cumque architecto
+            nisi assumenda, ut eligendi tempore ducimus, porro aliquid a beatae modi molestias et, dicta odit!</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quasi animi corporis hic. Cumque architecto
+            nisi assumenda, ut eligendi tempore ducimus, porro aliquid a beatae modi molestias et, dicta odit!</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quasi animi corporis hic. Cumque architecto
+            nisi assumenda, ut eligendi tempore ducimus, porro aliquid a beatae modi molestias et, dicta odit!</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quasi animi corporis hic. Cumque architecto
+            nisi assumenda, ut eligendi tempore ducimus, porro aliquid a beatae modi molestias et, dicta odit!</p>
+
+    </div>
+    <button class="buttonslide">Click here for the report</button>
+</body>
+
+</html>
